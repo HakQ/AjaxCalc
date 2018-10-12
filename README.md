@@ -8,7 +8,7 @@ to perform on the two values. There are four routes that depending on the operat
 the program will be route to. This is a pretty simple program with learning in mind.
 
 To run the program:
-1. clone the repository: git clone https://github.com/HakQ/flaskCalculator 
+1. clone the repository: git clone https://github.com/HakQ/AjaxCalc 
 2. Go into the directory that you have just cloned
 3. activate virtual environment: source venv/bin/activate. You may need to download
    virtualenv if you don't already have it
