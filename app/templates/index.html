@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Ajax Calculator</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <h1>!Simple Ajax Calculator!</h1>
+        <form>
+            <p>Enter Two Numbers:</p>
+            <!--Inputs for adding-->
+            <input type="text" name='num1'  placeholder="Number" />
+            <input type="text" name='num2' placeholder="Number"/>
+        </form>
+        
+        <!--Buttons for arithmetics-->
+        <button class="btn btn-default" id = "add">add</button>
+        <button class="btn btn-default" id = "subtract">subtract</button>
+        <button class="btn btn-default" id = "multiply">multiply</button>
+        <button class="btn btn-default" id = "divide">divide</button>
+
+        <br/>
+        <br/>
+        <!--Final output after the calculation-->
+        <p id="output" ></p>
+        <script src="/static/js/index.js"></script>
+    </body>
+</html>
