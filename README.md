@@ -1,5 +1,7 @@
 Author: Qiuqun Wang
+
 Project Purpose: A simple calculator with four basic arithmetic 
+
 Language: Python, Flask, Javascript, HTML
 OS: the program is coded in tested on Ubuntu 16.04 LTS
 
