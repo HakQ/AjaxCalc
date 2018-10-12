@@ -14,7 +14,7 @@ To run the program:
 2. Go into the directory that you have just cloned
 3. activate virtual environment: source venv/bin/activate. You may need to download
    virtualenv if you don't already have it
-4. type: export FLASK_APP=calc.py
+4. type: export FLASK_APP=calc.py. Also run export FLASK_ENV=development if you want to be in debug mode
 5. type: flask run
 6. A link will be provided after the previous step, click on the link and you 
    will be able to use the program.
